@@ -1,6 +1,6 @@
 import './App.scss';
-import FormInput from './FormInput';
-import FormOutput from './FormOutput';
+import styles from './styles/Forms.module.scss';
+import FormsScreen from './Forms/FormsScreen';
 
 function App() {
   return (
@@ -9,8 +9,9 @@ function App() {
       <h1>Customer Service/Tech Call Notes (CSTCN)</h1>
       </header>
 
-      <FormInput />
-      <FormOutput />
+      <div className={styles.forms}>
+        <FormsScreen />
+      </div>
 
     </div>
   );

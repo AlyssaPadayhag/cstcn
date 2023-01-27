@@ -20,8 +20,7 @@ function FormInput({ handleFormSubmit, handleFormChange }) {
 
     return (
         <div>
-            <h1>Form Input</h1>
-            <form onSubmit={handleSubmit(handleFormSubmit)}>
+            <form onSubmit={handleSubmit(handleFormSubmit)} className={styles.input}>
                 <div className={styles.group}>
                     <label htmlFor='account'>Account Number: </label>
                     <input id='account' {...register('account')} />

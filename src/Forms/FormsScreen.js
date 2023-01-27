@@ -2,6 +2,7 @@ import styles from '../styles/Forms.module.scss';
 import { useState, useCallback } from "react";
 import FormInput from './FormInput';
 import FormOutput from './FormOutput';
+import FormNotes from './FormNotes';
 
 const initialState = {
     account: "",
@@ -36,6 +37,7 @@ function FormsScreen() {
         <div className={styles.forms}>
             <FormInput handleFormSubmit={handleFormSubmit} handleFormChange={handleFormChange} />
             <FormOutput info={info} />
+            <FormNotes />
         </div>
     );
 }

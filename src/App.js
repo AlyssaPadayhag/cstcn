@@ -1,5 +1,5 @@
 import './App.scss';
-import InfoForm from './InfoForm';
+import InputForm from './InputForm';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <h1>Customer Service/Tech Call Notes (CSTCN)</h1>
       </header>
 
-      <InfoForm />
+      <InputForm />
     </div>
   );
 }

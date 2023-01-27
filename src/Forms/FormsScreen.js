@@ -1,12 +1,19 @@
 import styles from '../styles/Forms.module.scss';
-import { useEffect, useState, useCallback } from "react";
-import { useForm } from "react-hook-form";
+import { useState, useCallback } from "react";
 import FormInput from './FormInput';
 import FormOutput from './FormOutput';
 
 const initialState = {
-    account: 0,
-    name: "first name"
+    account: "",
+    name: "",
+    email: "",
+    system: "",
+    view: "",
+    year: "",
+    return: "",
+    state: "",
+    form: "",
+    clientId: "",
 };
 
 function FormsScreen() {
@@ -30,7 +37,7 @@ function FormsScreen() {
             <FormInput handleFormSubmit={handleFormSubmit} handleFormChange={handleFormChange} />
             <FormOutput info={info} />
         </div>
-    )
+    );
 }
 
 export default FormsScreen;

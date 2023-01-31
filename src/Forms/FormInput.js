@@ -31,7 +31,7 @@ function FormInput({ handleFormSubmit, handleFormChange }) {
                 </div>
                 <div className={styles.group}>
                     <label htmlFor='email'>Verified Email? </label>
-                    <input id='email' {...register('email')} />
+                    <input type='checkbox' id='email' {...register('email')} />
                 </div>
                 <div className={styles.group}>
                     <label htmlFor='system'>System: </label>

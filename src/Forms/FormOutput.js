@@ -1,6 +1,4 @@
 import styles from '../styles/Forms.module.scss';
-import { useState } from 'react';
-import copy from "copy-to-clipboard"; 
 
 
 function FormOutput({ info }) {

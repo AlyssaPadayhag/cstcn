@@ -4,7 +4,12 @@ label {
 
 textarea {
     width: 350px;
-    height: 350px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
 }
 
 .wrapper {
@@ -40,7 +45,8 @@ textarea {
     grid-column: 3;
     background-color: rgba(215, 215, 215, 0.9);
     border-radius: 10px;
-    padding-left: 30px;
+    padding: 20px 100px 50px 20px;
+    text-align: center;
 }
 
 .group {

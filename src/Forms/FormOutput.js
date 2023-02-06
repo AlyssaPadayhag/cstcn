@@ -17,6 +17,7 @@ function FormOutput({ info }) {
                 <p onClick={() =>  navigator.clipboard.writeText(info.form)}>Form(s): {info.form}</p>
                 <p onClick={() =>  navigator.clipboard.writeText(info.clientId)}>Client ID: {info.clientId}</p>
             </div>
+            <h3>Box 2</h3>
         </div>
     )
 }

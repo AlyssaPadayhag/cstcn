@@ -62,6 +62,7 @@ function FormInput({ handleFormSubmit, handleFormChange }) {
                     <input id='client-id' {...register('clientId')} />
                 </div>
             </form>
+        <h3>Box 1</h3>
         </div>
     );
 }

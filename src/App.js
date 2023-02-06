@@ -10,6 +10,7 @@ function App() {
       </header>
 
     <div className={styles.wrapper}>
+      <p>Type in information Box 1. Click text in box 2 to instant copy.</p>
       <FormsScreen />
     </div>
 
